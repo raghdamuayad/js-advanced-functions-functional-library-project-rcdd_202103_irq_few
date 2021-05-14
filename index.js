@@ -176,7 +176,7 @@ return (n === 1)? array.slice(0, n)[0] : array.slice(0, n)
   },
 
   functions: function(obj) {
-  const fnArray = [];
+  const fnArray = [  ];
   for (const key in obj) {
   if (typeof obj[key] === 'function') {
   fnArray.push(key)
